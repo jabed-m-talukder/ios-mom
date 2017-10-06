@@ -16,6 +16,7 @@ class MomsTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        jsonDataTest()
         commutil.getAllMoms(apiEndPoint: getAllApiEndPoint){ response in
             self.subjectList = response
             let res: String = self.subjectList.first!
@@ -71,6 +72,14 @@ class MomsTableViewController: UITableViewController {
     
     func backToPreviousView(){
         self.navigationController?.popViewController(animated: true)
+    }
+    
+    func jsonDataTest(){
+        let sampleDataAddress = "https://jsonplaceholder.typicode.com/users"
+        let url = URL(string: sampleDataAddress)!
+        let jsonData = try! Data(contentsOf: url)
+        let momString = NSString(data:jsonData, encoding: String.Encoding.utf8.rawValue)
+        dump(momString)
     }
     /*
     // Override to support conditional editing of the table view.

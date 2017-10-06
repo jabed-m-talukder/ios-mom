@@ -57,8 +57,10 @@ class CommonUtility{
         let task = session.dataTask(with: url, completionHandler: {
             (data, response, error) in
             // Make sure we get an OK response
-            print(data)
-            print(response)
+            guard error == nil && data != nil else {                                                          // check for fundamental networking error
+                print("error=\(String(describing: error))")
+                return
+            }
             guard let realResponse = response as? HTTPURLResponse ,
                 realResponse.statusCode == 200 else {
                     print("Not a 200 response")

@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20FEB1FB960285E4232B93B1 /* Pods_ios_meeting_of_minutesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E62909409C7C0B607EC4A6BE /* Pods_ios_meeting_of_minutesUITests.framework */; };
-		36360B8F3CECE87A04F92E6A /* Pods_ios_meeting_of_minutes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930DB79E191999E12158EA6A /* Pods_ios_meeting_of_minutes.framework */; };
-		A8080C591DFFE7A20032AD0A /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8080C581DFFE7A20032AD0A /* CellView.swift */; };
-		A8080C5B1DFFE7AB0032AD0A /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8080C5A1DFFE7AB0032AD0A /* CellView.xib */; };
-		A8103EA51DF139D900ADE38C /* CMDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8103EA41DF139D900ADE38C /* CMDataViewController.swift */; };
+		5ED513A83E7536FA53885BA7 /* Pods_ios_meeting_of_minutesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AA02632943DD29093FF813 /* Pods_ios_meeting_of_minutesTests.framework */; };
+		8A547CE4AC558FB46A5D8423 /* Pods_ios_meeting_of_minutesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4AF6C76421E4F1634D244A /* Pods_ios_meeting_of_minutesUITests.framework */; };
 		A841647B1DFAA246001B6CFD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A841647A1DFAA246001B6CFD /* Constants.swift */; };
 		A87374751DEBEC060056371F /* MomsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87374741DEBEC060056371F /* MomsTableViewController.swift */; };
 		A87374771DEBF2A10056371F /* CommonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87374761DEBF2A10056371F /* CommonUtility.swift */; };
@@ -23,10 +20,9 @@
 		A8E080001DDC4B0800A4165C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E07FFE1DDC4B0800A4165C /* LaunchScreen.storyboard */; };
 		A8E0800B1DDC4B0800A4165C /* ios_meeting_of_minutesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E0800A1DDC4B0800A4165C /* ios_meeting_of_minutesTests.swift */; };
 		A8E080161DDC4B0800A4165C /* ios_meeting_of_minutesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E080151DDC4B0800A4165C /* ios_meeting_of_minutesUITests.swift */; };
-		A8FC43D21E012D4F003C1E9C /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FC43D11E012D4F003C1E9C /* CalendarViewController.swift */; };
 		A8FEB4931DF16A7E00DA8BEA /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = A8FEB48F1DF16A7E00DA8BEA /* Contents.json */; };
 		A8FEB4951DF16EFF00DA8BEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FEB4941DF16EFF00DA8BEA /* Images.xcassets */; };
-		BF0A205C599E12D2B4D59E08 /* Pods_ios_meeting_of_minutesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0997745B847AA09BED70B442 /* Pods_ios_meeting_of_minutesTests.framework */; };
+		D540DDD5AF1FAEEF63CB444F /* Pods_ios_meeting_of_minutes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE965D1E68BC47DF556E577 /* Pods_ios_meeting_of_minutes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,15 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		006FAF2521BE316D75EB93CA /* Pods-ios-meeting-of-minutesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutesTests/Pods-ios-meeting-of-minutesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		0997745B847AA09BED70B442 /* Pods_ios_meeting_of_minutesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_meeting_of_minutesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		534E87FA302E5969431C2C8D /* Pods-ios-meeting-of-minutesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutesUITests/Pods-ios-meeting-of-minutesUITests.release.xcconfig"; sourceTree = "<group>"; };
-		930DB79E191999E12158EA6A /* Pods_ios_meeting_of_minutes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_meeting_of_minutes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A47BDD4E2F5C8EAF458FA7C2 /* Pods-ios-meeting-of-minutes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutes/Pods-ios-meeting-of-minutes.debug.xcconfig"; sourceTree = "<group>"; };
-		A539EC5CDC2F9860141745CF /* Pods-ios-meeting-of-minutesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutesUITests/Pods-ios-meeting-of-minutesUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		A8080C581DFFE7A20032AD0A /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
-		A8080C5A1DFFE7AB0032AD0A /* CellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellView.xib; sourceTree = "<group>"; };
-		A8103EA41DF139D900ADE38C /* CMDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMDataViewController.swift; sourceTree = "<group>"; };
+		10AA02632943DD29093FF813 /* Pods_ios_meeting_of_minutesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_meeting_of_minutesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC0FFC0E1CBBC8ED965E0FB /* Pods-ios-meeting-of-minutes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutes/Pods-ios-meeting-of-minutes.debug.xcconfig"; sourceTree = "<group>"; };
+		44F32EE05523F328AA1454D8 /* Pods-ios-meeting-of-minutes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutes.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutes/Pods-ios-meeting-of-minutes.release.xcconfig"; sourceTree = "<group>"; };
+		493EF27470650BE67165A5EE /* Pods-ios-meeting-of-minutesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutesTests/Pods-ios-meeting-of-minutesTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D28CDCD7FFFB23E91360A3A /* Pods-ios-meeting-of-minutesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutesUITests/Pods-ios-meeting-of-minutesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6CE965D1E68BC47DF556E577 /* Pods_ios_meeting_of_minutes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_meeting_of_minutes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4AF6C76421E4F1634D244A /* Pods_ios_meeting_of_minutesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_meeting_of_minutesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A841647A1DFAA246001B6CFD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A87374741DEBEC060056371F /* MomsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomsTableViewController.swift; sourceTree = "<group>"; };
 		A87374761DEBF2A10056371F /* CommonUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtility.swift; sourceTree = "<group>"; };
@@ -73,12 +67,10 @@
 		A8E080111DDC4B0800A4165C /* ios-meeting-of-minutesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-meeting-of-minutesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E080151DDC4B0800A4165C /* ios_meeting_of_minutesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_meeting_of_minutesUITests.swift; sourceTree = "<group>"; };
 		A8E080171DDC4B0800A4165C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8FC43D11E012D4F003C1E9C /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		A8FEB48F1DF16A7E00DA8BEA /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Contents.json; path = Assets.xcassets/AppIcon.appiconset/Contents.json; sourceTree = "<group>"; };
 		A8FEB4941DF16EFF00DA8BEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DDAA08EDFF87F92CB6CA46ED /* Pods-ios-meeting-of-minutes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutes.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutes/Pods-ios-meeting-of-minutes.release.xcconfig"; sourceTree = "<group>"; };
-		DEC30D2A1255F87D18BB91EE /* Pods-ios-meeting-of-minutesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutesTests/Pods-ios-meeting-of-minutesTests.release.xcconfig"; sourceTree = "<group>"; };
-		E62909409C7C0B607EC4A6BE /* Pods_ios_meeting_of_minutesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_meeting_of_minutesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD88526CCD3AFC0EBC001F97 /* Pods-ios-meeting-of-minutesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutesTests/Pods-ios-meeting-of-minutesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E19F24B0053F0D1242EB8907 /* Pods-ios-meeting-of-minutesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-meeting-of-minutesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-meeting-of-minutesUITests/Pods-ios-meeting-of-minutesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36360B8F3CECE87A04F92E6A /* Pods_ios_meeting_of_minutes.framework in Frameworks */,
+				D540DDD5AF1FAEEF63CB444F /* Pods_ios_meeting_of_minutes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF0A205C599E12D2B4D59E08 /* Pods_ios_meeting_of_minutesTests.framework in Frameworks */,
+				5ED513A83E7536FA53885BA7 /* Pods_ios_meeting_of_minutesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20FEB1FB960285E4232B93B1 /* Pods_ios_meeting_of_minutesUITests.framework in Frameworks */,
+				8A547CE4AC558FB46A5D8423 /* Pods_ios_meeting_of_minutesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,19 +104,11 @@
 		452D64CDD672AAE3C69D6C15 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				930DB79E191999E12158EA6A /* Pods_ios_meeting_of_minutes.framework */,
-				0997745B847AA09BED70B442 /* Pods_ios_meeting_of_minutesTests.framework */,
-				E62909409C7C0B607EC4A6BE /* Pods_ios_meeting_of_minutesUITests.framework */,
+				6CE965D1E68BC47DF556E577 /* Pods_ios_meeting_of_minutes.framework */,
+				10AA02632943DD29093FF813 /* Pods_ios_meeting_of_minutesTests.framework */,
+				9C4AF6C76421E4F1634D244A /* Pods_ios_meeting_of_minutesUITests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A8103EA31DF1398000ADE38C /* CMData */ = {
-			isa = PBXGroup;
-			children = (
-				A8103EA41DF139D900ADE38C /* CMDataViewController.swift */,
-			);
-			name = CMData;
 			sourceTree = "<group>";
 		};
 		A8E07FE91DDC4B0800A4165C = {
@@ -152,10 +136,6 @@
 		A8E07FF41DDC4B0800A4165C /* ios-meeting-of-minutes */ = {
 			isa = PBXGroup;
 			children = (
-				A8FC43D11E012D4F003C1E9C /* CalendarViewController.swift */,
-				A8080C5A1DFFE7AB0032AD0A /* CellView.xib */,
-				A8080C581DFFE7A20032AD0A /* CellView.swift */,
-				A8103EA31DF1398000ADE38C /* CMData */,
 				A8E07FF51DDC4B0800A4165C /* AppDelegate.swift */,
 				A8E07FF71DDC4B0800A4165C /* ViewController.swift */,
 				A8E07FF91DDC4B0800A4165C /* Main.storyboard */,
@@ -193,12 +173,12 @@
 		FAD9167EF68E9D053D08A480 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A47BDD4E2F5C8EAF458FA7C2 /* Pods-ios-meeting-of-minutes.debug.xcconfig */,
-				DDAA08EDFF87F92CB6CA46ED /* Pods-ios-meeting-of-minutes.release.xcconfig */,
-				006FAF2521BE316D75EB93CA /* Pods-ios-meeting-of-minutesTests.debug.xcconfig */,
-				DEC30D2A1255F87D18BB91EE /* Pods-ios-meeting-of-minutesTests.release.xcconfig */,
-				A539EC5CDC2F9860141745CF /* Pods-ios-meeting-of-minutesUITests.debug.xcconfig */,
-				534E87FA302E5969431C2C8D /* Pods-ios-meeting-of-minutesUITests.release.xcconfig */,
+				3DC0FFC0E1CBBC8ED965E0FB /* Pods-ios-meeting-of-minutes.debug.xcconfig */,
+				44F32EE05523F328AA1454D8 /* Pods-ios-meeting-of-minutes.release.xcconfig */,
+				BD88526CCD3AFC0EBC001F97 /* Pods-ios-meeting-of-minutesTests.debug.xcconfig */,
+				493EF27470650BE67165A5EE /* Pods-ios-meeting-of-minutesTests.release.xcconfig */,
+				E19F24B0053F0D1242EB8907 /* Pods-ios-meeting-of-minutesUITests.debug.xcconfig */,
+				4D28CDCD7FFFB23E91360A3A /* Pods-ios-meeting-of-minutesUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -214,8 +194,8 @@
 				A8E07FEE1DDC4B0800A4165C /* Sources */,
 				A8E07FEF1DDC4B0800A4165C /* Frameworks */,
 				A8E07FF01DDC4B0800A4165C /* Resources */,
-				0DF5FB15855059C7EDDF276E /* [CP] Embed Pods Frameworks */,
-				BF3FD466F8FC0C5C14CB7BCF /* [CP] Copy Pods Resources */,
+				D12CB9B294ABE5DE528D7315 /* [CP] Embed Pods Frameworks */,
+				0DD1441C25883D18E0BFA4E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -323,7 +303,6 @@
 				A8E080001DDC4B0800A4165C /* LaunchScreen.storyboard in Resources */,
 				A8FEB4951DF16EFF00DA8BEA /* Images.xcassets in Resources */,
 				A8E07FFB1DDC4B0800A4165C /* Main.storyboard in Resources */,
-				A8080C5B1DFFE7AB0032AD0A /* CellView.xib in Resources */,
 				A8FEB4931DF16A7E00DA8BEA /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,22 +324,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DF5FB15855059C7EDDF276E /* [CP] Embed Pods Frameworks */ = {
+		0DD1441C25883D18E0BFA4E6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ios-meeting-of-minutes/Pods-ios-meeting-of-minutes-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-meeting-of-minutes/Pods-ios-meeting-of-minutes-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-meeting-of-minutes/Pods-ios-meeting-of-minutes-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		268095B51179829413ED127E /* [CP] Copy Pods Resources */ = {
@@ -462,21 +438,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-meeting-of-minutesUITests/Pods-ios-meeting-of-minutesUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BF3FD466F8FC0C5C14CB7BCF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-meeting-of-minutes/Pods-ios-meeting-of-minutes-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CB740828BFECC95468C88E46 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -492,6 +453,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-meeting-of-minutesTests/Pods-ios-meeting-of-minutesTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D12CB9B294ABE5DE528D7315 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-meeting-of-minutes/Pods-ios-meeting-of-minutes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -501,14 +477,11 @@
 			files = (
 				A8A7C60D1DEEBF000014C67E /* NewMomViewController.swift in Sources */,
 				A8E07FF81DDC4B0800A4165C /* ViewController.swift in Sources */,
-				A8103EA51DF139D900ADE38C /* CMDataViewController.swift in Sources */,
 				A87374751DEBEC060056371F /* MomsTableViewController.swift in Sources */,
 				A841647B1DFAA246001B6CFD /* Constants.swift in Sources */,
 				A890E49A1F7258A1007FF6DE /* HomeViewController.swift in Sources */,
 				A8E07FF61DDC4B0800A4165C /* AppDelegate.swift in Sources */,
-				A8FC43D21E012D4F003C1E9C /* CalendarViewController.swift in Sources */,
 				A87374771DEBF2A10056371F /* CommonUtility.swift in Sources */,
-				A8080C591DFFE7A20032AD0A /* CellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,7 +623,7 @@
 		};
 		A8E0801B1DDC4B0800A4165C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A47BDD4E2F5C8EAF458FA7C2 /* Pods-ios-meeting-of-minutes.debug.xcconfig */;
+			baseConfigurationReference = 3DC0FFC0E1CBBC8ED965E0FB /* Pods-ios-meeting-of-minutes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -665,7 +638,7 @@
 		};
 		A8E0801C1DDC4B0800A4165C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDAA08EDFF87F92CB6CA46ED /* Pods-ios-meeting-of-minutes.release.xcconfig */;
+			baseConfigurationReference = 44F32EE05523F328AA1454D8 /* Pods-ios-meeting-of-minutes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -680,7 +653,7 @@
 		};
 		A8E0801E1DDC4B0800A4165C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 006FAF2521BE316D75EB93CA /* Pods-ios-meeting-of-minutesTests.debug.xcconfig */;
+			baseConfigurationReference = BD88526CCD3AFC0EBC001F97 /* Pods-ios-meeting-of-minutesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "ios-meeting-of-minutesTests/Info.plist";
@@ -695,7 +668,7 @@
 		};
 		A8E0801F1DDC4B0800A4165C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEC30D2A1255F87D18BB91EE /* Pods-ios-meeting-of-minutesTests.release.xcconfig */;
+			baseConfigurationReference = 493EF27470650BE67165A5EE /* Pods-ios-meeting-of-minutesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "ios-meeting-of-minutesTests/Info.plist";
@@ -710,7 +683,7 @@
 		};
 		A8E080211DDC4B0800A4165C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A539EC5CDC2F9860141745CF /* Pods-ios-meeting-of-minutesUITests.debug.xcconfig */;
+			baseConfigurationReference = E19F24B0053F0D1242EB8907 /* Pods-ios-meeting-of-minutesUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "ios-meeting-of-minutesUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -724,7 +697,7 @@
 		};
 		A8E080221DDC4B0800A4165C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 534E87FA302E5969431C2C8D /* Pods-ios-meeting-of-minutesUITests.release.xcconfig */;
+			baseConfigurationReference = 4D28CDCD7FFFB23E91360A3A /* Pods-ios-meeting-of-minutesUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "ios-meeting-of-minutesUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
